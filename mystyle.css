@@ -1,0 +1,185 @@
+body{
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Navbar */
+
+img.logo-nav{
+    width: 18vh;
+    height: 8vh;
+}
+
+a.nav-link{
+    color: #000;
+
+}
+
+.nav-item.active a{
+    color: #c83e3e;
+}
+
+
+/* Header */
+
+.header-container{
+    background-color: #000;
+}
+
+.header-deals h3, .header-deals h6{
+    color: #fff !important;
+
+}
+
+.button-header{
+    color: #c83e3e;
+}
+
+.header-image{
+    height: 90vh;
+    width: 38vw;
+}
+
+/* Section presentation*/
+
+.presentation-bowls img{
+    width: 12vw;
+    height: 25vh;
+}
+
+img.interior-presentation{
+    width: 40vw;
+    height: 56vh ;
+}
+
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    background: #c83e3e;
+ }
+
+  .hr-lines{
+    position: relative;
+    margin-left: 35px;
+    
+    
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* Section restaurant-benefits */
+
+  
+.col-benefits{
+    background-color: #000;
+    color: #fff;
+} 
+
+.col-benefits h3{
+    color: #a1895b;
+    font-weight: bold;
+}
+
+.col-benefits h5{
+    color: #d0cfcf;
+}
+
+/* Section restaurant-dessert */
+
+.restaurant-dessert{
+    position: relative;
+    
+}
+
+.menu-desert{
+    width: 13vw;
+    height: 38vh;
+    border-radius: 1%;
+}
+
+p.text-menu-desert{
+    background-color: #000;
+    color: #d0cfcf;
+    width: 13vw;
+    font-size: 18px;
+}
+
+span.menu-price{
+    background-color: rgba(0, 0, 0, 0.83);
+    color: #bbb7b7;
+    border-radius: 5%;
+    position: absolute;
+    top: 23.5%;
+    font-weight: bold;
+}
+
+/* Section restaurant menu */
+
+.menu-food{
+    width: 140px;
+    height: 120px;
+}
+
+span.price{
+    background-color: #000;
+    color: #d0cfcf;
+    padding: 15px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+.red-text{
+    color: #c83e3e;
+}
+
+/* Section restaurant staff */
+
+.chef-image{
+    width: 25vw;
+    height: 50vh;
+}
+
+/* Section restaurant contact info */
+
+.restaurant-contactinfo{
+    background-image: url('poze/restaurant-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.restaurant-customer-contact{
+    background-color: #fff;
+    color: #000;
+    border-radius: 3px;
+}
+
+
+/* Section map */
+iframe{
+    width: 100%;
+}
+
+/* Section footer */
+
+footer img.recent-photo{
+    width: 8vw;
+    height: 10vh;
+}
+
+footer{
+    background-color: #000;
+}
+
+img.footer-logo{
+    width: 10vw;
+    height: 6vh;
+}
